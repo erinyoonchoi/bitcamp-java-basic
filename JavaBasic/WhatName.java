@@ -1,0 +1,9 @@
+class WhatName{
+    /**
+     * ???? ??©ö??? ?????? ???? (comment)
+     */
+    public static void main(String[] args){
+        System.out.println("Hello"); //??©ö?
+        System.out.println("World"); 
+    }
+}
