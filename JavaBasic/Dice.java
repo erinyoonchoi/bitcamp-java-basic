@@ -10,11 +10,10 @@ class Dice{
          */  
         
         Scanner scan = new Scanner(System.in);
-
         Random ran = new Random();
         int dice = 0;
         dice = ran.nextInt(6)+1;
-        System.out.println(String.format("랜덤으로 나온 수 %d", dice));
+//        System.out.println(String.format("랜덤으로 나온 수 %d", dice));
         String answer = "";
         if(dice % 2 == 0){
             answer = "짝";
@@ -22,14 +21,13 @@ class Dice{
             answer = "홀";
         }
 
-
         System.out.println("주사위 값을 예측한 홀, 짝 입력[ ]");
         String client = "";
         client = scan.next();
         if(client.equals(answer)){
             System.out.println("정답 입니다.");
         }else if(!client.equals(answer)){
-            System.out.println("오답 입니다.");
+            System.out.println(String.format("오답 입니다. %d 입니다.", dice));
         }else{
             System.out.println("잘못 입력하셨습니다. 재입력 하세요.");
         }
