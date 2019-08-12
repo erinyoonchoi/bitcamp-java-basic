@@ -6,6 +6,6 @@ class WhereLive{
         System.out.println("사는 곳이 어딘가요?");
         Scanner scan = new Scanner(System.in);
         place = scan.next();
-        System.out.println("저는"+place+"에 삽니다.");
+        System.out.println(String.format("저는 %s 에 삽니다.", place));
     }
 }
