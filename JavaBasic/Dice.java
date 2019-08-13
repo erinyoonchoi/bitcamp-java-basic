@@ -13,7 +13,7 @@ class Dice{
         Random ran = new Random();
         int dice = 0;
         dice = ran.nextInt(6)+1;
-//        System.out.println(String.format("랜덤으로 나온 수 %d", dice));
+        //System.out.println(String.format("랜덤으로 나온 수 %d", dice));
         String answer = "";
         if(dice % 2 == 0){
             answer = "짝";

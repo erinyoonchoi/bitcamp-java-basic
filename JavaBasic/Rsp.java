@@ -11,7 +11,7 @@ class Rsp{
             System.out.println("컴퓨터 승!");
         }
         else if(op == 2){
-            System.out.println("비김 .");
+            System.out.println("비김.");
         }
         else if(op == 3){
             System.out.println("사용자 승!");
